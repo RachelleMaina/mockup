@@ -1,0 +1,77 @@
+/* Global style*/
+body {
+  font-family: "Lato", sans-serif;
+}
+#root {
+  background: #fdf6f6;
+}
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.main-container {
+  min-height: 650px;
+}
+/* Header*/
+.navbar-custom {
+  background: #792525;
+  margin-bottom: 25px;
+}
+.navbar-custom .brand {
+  color: #fcc810;
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-size: 34px;
+}
+.navbar-custom .brand:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+.navbar-custom .nav-link {
+  color: #fcc810 !important;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 2px 2px;
+}
+.navbar-custom .nav-link:hover {
+  opacity: 0.8;
+}
+.navbar-custom .get-started {
+  color: #fcc810 !important;
+  font-family: "Roboto Condensed", sans-serif;
+  border: 1px solid #fcc810;
+  border-radius: 3px;
+  margin-left: 15px;
+  padding: 2px 2px;
+}
+.navbar-custom .get-started:hover {
+  opacity: 0.8;
+}
+/* Footer*/
+.footer {
+  color: grey;
+  text-align: right;
+  padding: 10px;
+}
+
+/* Home*/
+.meta,
+.author {
+  display: inline-block;
+}
+img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.meta,
+.description {
+  color: grey;
+  font-size: 13px;
+}
+.welcome-card {
+  background: #efebd5;
+  margin: 50px 0;
+}
+
+.number {
+  color: gray;
+  font-size: 34px;
+}
