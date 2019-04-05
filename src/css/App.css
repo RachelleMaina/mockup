@@ -29,7 +29,7 @@ h3 {
 .navbar-custom .nav-link {
   color: #fcc810 !important;
   font-family: "Roboto Condensed", sans-serif;
-  padding: 2px 2px;
+ 
 }
 .navbar-custom .nav-link:hover {
   opacity: 0.8;
@@ -40,10 +40,13 @@ h3 {
   border: 1px solid #fcc810;
   border-radius: 3px;
   margin-left: 15px;
-  padding: 2px 2px;
 }
 .navbar-custom .get-started:hover {
   opacity: 0.8;
+}
+.search-icon{
+  color: #fcc810;
+  padding: 8px 8px 0 2px;
 }
 /* Footer*/
 .footer {
@@ -75,3 +78,114 @@ img {
   color: gray;
   font-size: 34px;
 }
+
+.fa-google{
+  color: #4285F4;
+  font-size: 20px;
+  padding:5px;
+}
+.fa-twitter{
+  color: #0084b4;
+  font-size: 25px;
+  padding:5px;
+}
+.fa-facebook{
+  color: #4267b2;
+  font-size: 25px;
+  padding:5px;
+}
+.btn-auth{
+  text-align: left;
+  font-size: 16px;
+  color: #333;
+}
+.btn-auth:hover{
+border:1px solid #000000;
+background: transparent;
+color: #000000;
+}
+/* Login*/
+.signup-modal{
+  background:#ffffff !important;
+  opacity:0.8;
+}
+.signup-modal-body{
+  border:none !important; 
+}
+.signup-modal-header{
+  border:none !important; 
+}
+
+
+/*Buttons*/
+.btn-one{
+  background: #792525;
+  border: none;
+  color: #fcc810;
+}
+.btn-one:hover{
+ opacity: 0.7;
+ background: #792525;
+ border: none;
+ color: #fcc810;
+  }
+  .btn-two{
+    text-align: left;
+    font-size: 16px;
+    background: #792525;
+    border: none;
+    color: #fcc810;
+  }
+  .btn-two:hover{
+  border:1px solid #000000;
+  background: transparent;
+  color: #000000;
+  }
+  .btn-three{
+    background: transparent;
+    border: 1px solid#fcc810;
+    color: #000000;
+  }
+  .btn-three:hover{
+  border:1px solid #000000;
+  background: transparent;
+  color: #000000;
+  }
+  .btn-four{
+    background: transparent;
+    border: 1px solid grey;
+    color: #000000;
+  }
+  .btn-four:hover{
+  border:1px solid #000000;
+  background: transparent;
+  color: #000000;
+  }
+
+  .btn-five{
+    background: gray;
+    border: none;
+  }
+  .btn-five:hover{
+   background: gray;
+   border: none;
+    }
+.fa-trash{
+  color: grey;
+}
+.fa-trash:hover{
+  color: grey;
+  opacity: 0.7;
+}
+  .btn-one:focus, .btn-one:active, .btn-two:focus, .btn-three:focus, .btn-four:focus, .btn-five:focus{
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline:none !important;
+     }
+
+.btn-one:click{
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      background: #792525;
+      border: none;
+       }
